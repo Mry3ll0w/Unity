@@ -143,6 +143,22 @@ MonoBehaviour:
   camara: {fileID: 932470616}
   iVelocidad: 0
   goPrefabSuelo: {fileID: 5769000149975396999, guid: 70bae45601621486c94b8a0f33731fe1, type: 3}
+--- !u!114 &475921808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475921796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3843aa157140f450a991ab83046fa23a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 2
+  camara: {fileID: 932470616}
+  textoEstrella: {fileID: 0}
+  textoVida: {fileID: 0}
 --- !u!1 &932470614
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,6 +448,10 @@ PrefabInstance:
     - target: {fileID: 7213111900732109551, guid: bebc70bb05087428bab17f969458ce9b, type: 3}
       propertyPath: m_Name
       value: Jugador
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213111900732109551, guid: bebc70bb05087428bab17f969458ce9b, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bebc70bb05087428bab17f969458ce9b, type: 3}
